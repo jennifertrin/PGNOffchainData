@@ -21,7 +21,12 @@ It opens the doors to the following use cases:
 
 ### Example #1: Trigger a Public Goods Transaction Based on Off-Chain Event
 
-Use Case(s):
+**Use Case(s)**:
 
 - A business or organization wants to donate to an organization after it has reached a milestone (ex. a higher education non-profit after x amount of their program students graduate from university)
 - A business or organization wants to automatically pass a governance proposal after an off-chain event occurs (ex. a grant to fund highway repairs after x amount of commuters drive by it after x years)
+
+**Technical Architecture**: 
+
+- [Internet Computer HTTPS Outcalls](https://internetcomputer.org/https-outcalls) as the storing and querying of off-chain data 
+- [Public Goods Network](https://publicgoods.network/) for on-chain transactions
